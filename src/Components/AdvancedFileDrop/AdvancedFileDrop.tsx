@@ -35,7 +35,7 @@ const AdvancedFileUpload = () => {
     newFiles.forEach((file, index) => {
       let progress = 0;
       const fileIndex = startIndex + index;
-
+      console.log(file);
       const interval = setInterval(() => {
         progress += 10;
 

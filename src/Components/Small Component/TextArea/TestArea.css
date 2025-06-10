@@ -4,7 +4,7 @@
   font-size: 15px;
   line-height: 1.5;
   margin-bottom: 6px;
-  color: var(--text-primary); /* Light/dark adaptive */
+  color: var(--text-primary); 
 }
 .textArea {
   width: 100%;
