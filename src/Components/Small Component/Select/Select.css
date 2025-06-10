@@ -1,0 +1,15 @@
+.select {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 17px;
+  border: 1px solid var(--surface-border);
+  border-radius: 4px;
+  background-color: var(--surface-input);
+  color: var(--text-primary);
+  /* appearance: none; for consistent cross-browser styling */
+}
+
+.select option {
+  background-color: var(--surface-input);
+  color: var(--text-primary);
+}

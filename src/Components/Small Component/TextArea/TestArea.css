@@ -1,0 +1,21 @@
+.label {
+  display: block;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 6px;
+  color: var(--text-primary); /* Light/dark adaptive */
+}
+.textArea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid var(--surface-border);
+  border-radius: 4px;
+  background-color: var(--surface-background);
+  color: var(--text-primary);
+}
+.required-star {
+  color: var(--color-error);
+  margin-left: 4px;
+  font-weight: bold;
+}

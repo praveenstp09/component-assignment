@@ -1,0 +1,60 @@
+.button{
+    color:white;
+    /* padding: 4px; */
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    border: none;
+}
+.primary{
+    background-color: var(--color-primary);
+    /* border:2px solid var(--color-primary) */
+}
+.secondary{
+    background-color: var(--color-secondary);
+    /* border:2px solid var(--color-secondary) */
+
+}
+.tertiary{
+    background-color: var(--color-tertiary);
+    /* border:2px solid var(--color-tertiary) */
+
+}
+
+.success{
+    background-color: var(--color-success);
+    /* border:2px solid var(--color-success) */
+
+}
+.info{
+    background-color: var(--color-info);
+    /* border:2px solid var(--color-info) */
+
+}
+.warning{
+    background-color: var(--color-warning);
+    /* border:2px solid var(--color-warning) */
+
+}
+.error{
+    background-color: var(--color-error);
+    /* border:2px solid var(--color-error) */
+
+}
+.surface-border {
+  background-color: var(--surface-border);
+  color: var(--color-grey-600); /* black text */
+  border: 1px solid var(--surface-border); /* optional border */
+}
+
+.small{
+    font-size: small;
+    /* width: 50px; */
+}
+.medium{
+    font-size: medium;
+    /* width: 60px; */
+}
+.large{
+    font-size: large;
+    /* width: 80px; */
+}

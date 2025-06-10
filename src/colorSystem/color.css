@@ -1,0 +1,47 @@
+:root {
+  --color-primary: #1e40af;
+  --color-secondary: #9333ea;
+  --color-tertiary: #10b981;
+
+  /* Semantic Colors  */
+  --color-success: #22c55e;
+  --color-info: #0ea5e9;
+  --color-warning: #facc15;
+  --color-error: #ef4444;
+
+  /* Neutrals palette*/
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-grey-50: #f9fafb;
+  --color-grey-100: #f3f4f6;
+  --color-grey-200: #e5e7eb;
+  --color-grey-400: #9ca3af;
+  --color-grey-600: #4b5563;
+  --color-grey-900: #111827;
+
+  /* Surface / Background */
+  --surface-background: var(--color-white);
+  --surface-card: var(--color-grey-50);
+  --surface-border: var(--color-grey-200);
+  --surface-hover: var(--color-grey-100);
+  
+  --surface-input: var(--color-white);
+
+  /* Text */
+  --text-primary: var(--color-grey-900);
+  --text-secondary: var(--color-grey-600);
+  --text-disabled: var(--color-grey-400);
+}
+[data-theme='dark'] {
+  --surface-background: #0f172a;
+  --surface-card: #1e293b;
+  --surface-border: #334155;
+  --surface-hover: #475569;
+
+  --surface-input:#0f172a;        /* Darker input background */
+
+  --text-primary: #ffffff;          /* White label/input text */
+  --text-secondary: #94a3b8;
+  --text-disabled: #64748b;
+}
+
